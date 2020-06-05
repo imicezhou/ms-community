@@ -5,7 +5,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback https://raw.githubusercontent.com/enricopulatzo/logback-XSD/master/src/main/xsd/logback.xsd">
 
-	<property name="LOG_HOME" value="../mscommunity/frame/logdata"/>
+	<property name="LOG_HOME" value="../../logs/ms-community/frame/logdata"/>
 
 	<!-- output destinations -->
     <!-- 控制台日志设置 -->
