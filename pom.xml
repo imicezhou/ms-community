@@ -29,6 +29,8 @@
   
   <modules>
   	<module>ms-community-frame</module>
+  	<module>ms-community-frontend</module>
+  	<module>ms-community-business</module>
   </modules>
   
   <build>
