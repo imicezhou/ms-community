@@ -30,28 +30,14 @@
 	  </exclusions>
 	</dependency>
 		
-	<dependency>
-	  	<groupId>org.webjars</groupId>
-	    <artifactId>jquery</artifactId>
-		<version>3.3.1</version>
-    </dependency>
-	<dependency>
-	    <groupId>org.webjars</groupId>
-	    <artifactId>bootstrap</artifactId>
-	    <version>4.3.0</version>
-	</dependency>
-	<dependency>
-	    <groupId>org.webjars</groupId>
-	    <artifactId>layui</artifactId>
-	    <version>2.5.6</version>
-	</dependency>
+	<!-- druid数据库连接池 -->
 	<dependency>
       <groupId>com.alibaba</groupId>
 	  <artifactId>druid-spring-boot-starter</artifactId>
 	  <version>1.1.22</version>
 	</dependency>
         
-    <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+    <!-- 操作数据库的 mybatis-plus -->
 	<dependency>
 	  <groupId>com.baomidou</groupId>
 	  <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -65,6 +51,11 @@
 	  <artifactId>mysql-connector-java</artifactId>
 	  <version>5.1.41</version>
 	</dependency>
-		
+
+	<dependency>
+	  <groupId>ms-community-interface</groupId>
+	  <artifactId>ms-community-interface</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+	</dependency>
   </dependencies>
 </project>

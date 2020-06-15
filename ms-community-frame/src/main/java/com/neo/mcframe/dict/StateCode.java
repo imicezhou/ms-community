@@ -2,7 +2,7 @@ package com.neo.mcframe.dict;
 
 public enum StateCode {
 
-	success(200,null),fail(400,null);
+	SUCCESS(200,null),FAIL(400,null);
 	
 	private Integer code;
 	private String msg;

@@ -14,11 +14,6 @@
   <packaging>pom</packaging>
 
   <name>ms-community</name>
-  <url></url>
-  
-  <developers>
-  	<developer>imicezhou</developer>
-  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,6 +26,7 @@
   	<module>ms-community-frame</module>
   	<module>ms-community-frontend</module>
   	<module>ms-community-business</module>
+  	<module>ms-community-interface</module>
   </modules>
   
   <build>

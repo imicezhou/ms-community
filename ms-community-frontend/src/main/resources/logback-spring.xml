@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true">
 
-	<property name="LOG_HOME" value="../../logs/ms-community/frame/logdata"/>
+	<property name="LOG_HOME" value="../../logs/ms-community/front/logdata"/>
 
 	<!-- output destinations -->
     <!-- 控制台 -->
@@ -39,7 +39,7 @@
     </root>
     
     <!-- appender默认从子logger开始找，如果找不到则往上级追溯。如果 additivity=false,则不会追溯 -->
-    <logger name="com.neo.mcframe" level="DEBUG" additivity="false">
+    <logger name="com.neo.mcfront" level="DEBUG" additivity="false">
     	<appender-ref ref="CONSOLE" />
         <!-- <appender-ref ref="FILE"/>	文件 -->
     </logger>
